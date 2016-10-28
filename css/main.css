@@ -1,0 +1,26 @@
+.carousel-inner > .item > .carousel-img {
+  height: auto;
+}
+
+.news-heading {
+    background: cornflowerblue;
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    left: 20px;
+}
+
+@media (min-width: 992px) {
+  .news-img {
+    min-height: 310px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .news-img {
+    min-height: 200px;
+  }
+}

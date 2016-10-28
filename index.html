@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>YHJUST16 Bootstrap Task</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="./css/carousel.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+  </head>
+<!-- Navbar -->
+  <body>
+    <div class="container">
+      <div class="navbar-wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logo" href="#">YHJUST16 Bootstrap Task</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">This</a></li>
+                <li><a href="#">Current</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Do nothing</a></li>
+                    <li><a href="#">Nothing happens</a></li>
+                    <li><a href="#">Linky link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="carousel-img" src="./img/kermit.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>It's not easy being green</h1>
+              <p>How Jim Hensons death affected one of the biggest stars.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Wish to read more?</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="carousel-img" src="./img/coffeeowl.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>The owls are not what they seem</h1>
+              <p>This small Washington town has damn fine cups of coffee and it's where pies goes when they die.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Click bait</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="carousel-img" src="./img/change.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Why change is hard</h1>
+              <p>When you change the way you look at things.</p><p>The things you look at change</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Change!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!-- News items -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img class="img-thumbnail news-img" src="./img/matterhorn.jpg">
+          <h2 class="news-heading">Have a peak</h2>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-thumbnail news-img" src="./img/computer-girl.jpg">
+          <h2 class="news-heading">Worst bug yet!</h2>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-thumbnail news-img" src="./img/hands.jpg">
+          <h2 class="news-heading">Art of tree hugging</h2>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-thumbnail news-img" src="./img/skeletal.jpg">
+          <h2 class="news-heading">Romance is dead</h2>
+        </div>
+      </div>
+
+
+      <!-- Featurettes -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2>Cat ipsum. <span class="text-muted">Litter your copy with more kitty.</span></h2>
+          <p class="lead">Cat ipsum dolor sit amet, going to catch the red dot today going to catch the red dot today find something else more interesting or run in circles. Friends are not food catch mouse and gave it as a present hate dog. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="img-thumbnail img-responsive center-block" src="./img/cat.jpg">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2>Cheese ipsum. <span class="text-muted">Everyone LOVES cheese right?</span></h2>
+          <p class="lead">Pecorino boursin macaroni cheese. Manchego cheesecake fromage frais pepper jack stinking bishop boursin cheesecake cheeseburger. Croque monsieur cheesecake cheesy grin lancashire caerphilly brie hard cheese fondue. Fromage.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="img-thumbnail img-responsive center-block" src="./img/cheese.jpg">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Info and Contact -->
+      <div class="row">
+        <div class="col-lg-4 col-xs-6">
+            <div class="standard-box bottom-box margin-bottom-10">
+                <h2 class="header-box">Menu</h2>
+                <ul class="list list-menu with-links">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">This</a>
+                    </li>
+                    <li>
+                        <a href="#">Current</a>
+                    </li>
+                    <li>
+                        <a href="#">Do nothing</a>
+                    </li>
+                    <li>
+                        <a href="#">Nothing happens</a>
+                    </li>
+                    <li>
+                        <a href="#">Linky link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-xs-6">
+            <div class="standard-box bottom-box">
+                <h2 class="header-box">Address</h2>
+                <div class="address-box">
+                    <h3>A.Ostlund</h3>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>Hemma 1</p>
+                    <p>Sweden</p>
+                    <p> <span class="glyphicon glyphicon-earphone"></span>123-456-7890</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:Andreas.Ostlund@spelpunkten.com">Andreas.Ostlund@spelpunkten.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="standard-box bottom-box">
+                <h2 class="header-box">Contact us</h2>
+                <form class="form-horizontal" enctype="application/x-www-form-urlencoded" method="post" action="#">
+                    <div class="form-group has-feedback">
+                        <div class="col-sm-12">
+                            <input class="form-control" type="text" name="topic" id="topic" value="" placeholder="topic">
+                            <span class="glyphicon glyphicon-pencil form-control-feedback"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <textarea class="form-control" name="message" id="message" placeholder="type your message here..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="submit" name="submit" value="Send" class="btn pull-right btn-warning">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Footer -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 A.Ostlund.</p>
+      </footer>
+
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
