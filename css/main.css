@@ -3,14 +3,19 @@
 }
 
 .news-heading {
-    background: cornflowerblue;
+    background: #333;
     position: absolute;
     display: block;
     bottom: 10px;
     font-size: 18px;
     padding: 10px;
-    color: white;
     left: 20px;
+}
+
+.info {
+  background: #333;
+  color: #f9f9ff;
+  border-radius: 5px;
 }
 
 @media (min-width: 992px) {
